@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h2>Formulário de Bilhete de Identidade</h2>
+
+
+    <form action="#" method="post">
+
+        <!-- DADOS PESSOAIS -->
+        <fieldset>
+            <legend><strong>1. Dados Pessoais</strong></legend>
+            <div>
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+            </div>
+        
+
+        <br>
+
+        <!-- FILIAÇÃO -->
+        
+            <legend><strong>. Filiação</strong></legend>
+            <div>
+                <label for="pai">Nome do Pai:</label><br>
+                <input type="text" id="pai" name="pai"><br><br>
+            </div>
+            <div>
+                <label for="mae">Nome da Mãe:</label><br>
+                <input type="text" id="mae" name="mae"><br><br>
+            </div>
+            <div>
+                <label for="num_bi">Número do BI:</label><br>
+            <input type="text" id="num_bi" name="num_bi"><br><br>
+            </div>
+            <hr>
+        
+
+        <br>
+
+        <!-- RESIDÊNCIA -->
+        
+            <legend><strong>2. Residência</strong></legend>
+
+            <label for="natural">Natural de:</label><br>
+            <input type="text" id="natural" name="Natural"><br><br>
+
+            <label for="Província">Província de:</label><br>
+            <select name="Província" id="Província">
+                <option value="Luanda">Luanda</option>
+                <option value="Malanje">Malanje</option>
+                <option value="Benguela">Benguela</option>
+                <option value="Huambo">Huambo</option>
+                <option value="Bengo">Bengo</option>
+                <option value="Bié">Bié</option>
+                <option value="Kuanza sul">Kuanza Sul</option>
+                <option value="Kuanza Norte">Kuanza Norte</option>
+                <option value="Zaire">Zaire</option>
+                <option value="Moxico">Moxico</option>
+                <option value="Namibe">Namibe</option>
+                <option value="Cabinda">Cabinda</option>
+                <option value="Cunene">Cunene</option>
+                <option value="Lunda Norte">Lunda Norte</option>
+                <option value="Lunda Sul">Lunda Sul</option>
+                <option value="Huíla">Huíla</option>
+                <option value="Cuando Cubango">Cuando Cubango</option>
+                <option value="Uíge">Uíge</option>
+
+            </select><br><br>
+            <label for="rua">Rua / Nº Casa:</label><br>
+            <input type="text" id="rua" name="rua"><br><br>
+            <label for="estado_civil">Estado Civil:</label><br>
+
+            <select id="estado_civil" name="estado_civil">
+                <option value="Solteiro">Solteiro(a)</option>
+                <option value="Casado">Casado(a)</option>
+                <option value="Viuvo">Viúvo(a)</option>
+                <option value="Divorciado">Divorciado(a)</option>
+            </select><br><br>
+        
+
+        <br>
+
+        <!-- DOCUMENTO -->
+        
+            <legend><strong>3. Documento de Identificação</strong></legend>
+
+             <div>
+                <label for="data_nasc">Data de Nascimento</label>
+                <input type="date" id="data_nasc" name="data_nasc" required><br><br>
+            </div>
+             <div>
+                Sexo:</label><br>
+                <input type="radio" id="m" name="sexo" value="Masculino" required>
+                <label for="m">Masculino</label>
+                <input type="radio" id="f" name="sexo" value="Feminino">
+                <label for="f">Feminino</label>
+                <br><br>
+
+            <label for="num_bi">Número do BI:</label><br>
+            <input type="text" id="num_bi" name="num_bi"><br><br>
+
+            <label for="data_emissao">Data de Emissão:</label><br>
+            <input type="date" id="data_emissao" name="data_emissao"><br><br>
+
+            <label for="local_emissao">Local de Emissão:</label><br>
+            <input type="text" id="local_emissao" name="local_emissao"><br><br>
+        </fieldset>
+        <br>
+        <button type="reset">Limpar Formulário</button>
+        <button type="submit">Enviar Formulário</button>
+
+    </form>
+
+</body>
+
+</html>
